@@ -54,7 +54,7 @@ footer {
   clear: both;
 }
 
-li {
+#lists {
   float: left;
 }
 
@@ -108,4 +108,8 @@ footer p:nth-child(2) {
 footer p:last-child {
   float:right; 
   text-align: right;
+}
+
+nav ul {
+  list-style:none;
 }
