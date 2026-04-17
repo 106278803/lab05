@@ -38,6 +38,7 @@ aside {
   background: url(styles/images/fade.jpg) repeat-x top left;
   width: 30%;
   float: right;
+  box-shadow: 10px 10px 5px #aaaaaa
 }
 
 header {
@@ -49,6 +50,62 @@ header {
 }
 
 footer {
-  border-top: 4px double;
+  border-top: 4px double darkgray;
+  clear: both;
 }
 
+li {
+  float: left;
+}
+
+table {
+  margin: auto;
+}
+
+#right {
+  float: right;
+}
+
+#hyperlinks {
+  clear: both;
+  float: left;
+}
+
+#images {
+  float: right;
+}
+
+figure {
+  border: 2px solid #ccc;
+}
+
+#list, #images, #table, #hyperlinks {
+  width: 50%;
+  text-align: center;
+}
+
+ol, ul, dl {
+  text-align:left;
+}
+
+article {
+  min-width: 30em;
+}
+
+footer p {
+  display: inline-block; 
+  width: 33%;
+}
+
+footer p:first-child {
+  float:left;
+}
+
+footer p:nth-child(2) {
+  text-align: center; 
+}
+
+footer p:last-child {
+  float:right; 
+  text-align: right;
+}
