@@ -26,9 +26,17 @@ aside:hover {
   display:block;
 }
 
-menu {
+.menu {
   display: inline-block;
+
 }
+
+nav a {
+  text-decoration: none;
+  padding:0.2em 0.6em;
+  border: 4px solid #ccc;
+  color: black;
+}      
 
 aside {
   border: 4px inset purple;
